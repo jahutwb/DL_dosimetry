@@ -5,7 +5,7 @@ import os
 
 
 class DatasetCatalog(object):
-    DATA_DIR = "datasets"
+    DATA_DIR = "/input"
     DATASETS = {
         "chroms_coco_train": {
             "img_dir": "chromosomes/train_chromosomes",
